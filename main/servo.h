@@ -15,9 +15,6 @@
 #define SREVO_TIMER_PERIOD          20000            //20000 ticks, 20ms
 
 
-
-
-
 typedef struct{
     mcpwm_timer_handle_t timer;
     mcpwm_oper_handle_t operator;
@@ -25,8 +22,6 @@ typedef struct{
     mcpwm_gen_handle_t generator;
     uint32_t current_angle;
 } servo_t;
-
-
 
 
 
